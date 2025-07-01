@@ -1,5 +1,4 @@
-Nội dung kiến thức
----
+
 
 ## 🔹 I. Kiến thức nền tảng
 
