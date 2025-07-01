@@ -1,6 +1,6 @@
------------------------------------------------------------
+---
 
-🔹 I. Kiến thức nền tảng
+## 🔹 I. Kiến thức nền tảng
 
 ### 1. Kiểu dữ liệu cơ bản
 
@@ -14,9 +14,9 @@
 * Cách ước lượng thời gian chạy của thuật toán
 * So sánh hiệu suất giữa các cách tiếp cận
 
------------------------------------------------------------
+---
 
-🔹 II. Cấu trúc dữ liệu
+## 🔹 II. Cấu trúc dữ liệu
 
 ### 1. Mảng và Chuỗi
 
@@ -50,9 +50,9 @@
 * Thuật toán: BFS, DFS
 * Ứng dụng: mạng xã hội, bản đồ, kiểm tra chu trình
 
------------------------------------------------------------
+---
 
-🔹 III. Thuật toán cơ bản
+## 🔹 III. Thuật toán cơ bản
 
 ### 1. Tìm kiếm
 
@@ -83,9 +83,9 @@
 * Chia nhỏ bài toán, giải riêng, ghép lại
 * Merge Sort, Binary Search là ví dụ
 
------------------------------------------------------------
+---
 
-🔹 IV. Kỹ thuật bổ trợ thường gặp
+## 🔹 IV. Kỹ thuật bổ trợ thường gặp
 
 * Kỹ thuật 2 con trỏ
 * Sliding Window
@@ -93,9 +93,9 @@
 * Bit Manipulation (bitmask cơ bản)
 * Prefix sum / Difference array
 
------------------------------------------------------------
+---
 
-🔹 V. Ứng dụng thực tế
+## 🔹 V. Ứng dụng thực tế
 
 * Tìm đường đi ngắn nhất (BFS)
 * Lịch sử trình duyệt (Stack)
@@ -103,4 +103,4 @@
 * Hệ thống gợi ý (Hash + Graph)
 * Bộ lọc từ cấm (Trie, Hash)
 
------------------------------------------------------------
+---
