@@ -72,5 +72,24 @@ int main() {
     printf("\n");
     printf("\n");
 
+    // 7. Con trỏ (Pointers)
+    printf("--- Pointer Examples ---\n");
+
+    int myVariable = 10;          // Khai báo một biến kiểu int
+    int *pointerToVariable;       // Khai báo một con trỏ kiểu int
+
+    pointerToVariable = &myVariable; // Gán địa chỉ của myVariable cho con trỏ
+
+    printf("Value of myVariable: %d\n", myVariable);
+    printf("Address of myVariable: %p\n", (void*)&myVariable); // In địa chỉ của biến
+    printf("Value of pointerToVariable (address it holds): %p\n", (void*)pointerToVariable); // In địa chỉ mà con trỏ đang giữ
+    printf("Value at the address pointerToVariable points to (*pointerToVariable): %d\n", *pointerToVariable); // In giá trị tại địa chỉ đó
+
+    // Thay đổi giá trị của biến thông qua con trỏ
+    *pointerToVariable = 25; // Bây giờ myVariable cũng sẽ là 25
+    printf("New value of myVariable after changing via pointer: %d\n", myVariable);
+    printf("\n");
+
+
     return 0; // Trả về 0 báo hiệu chương trình kết thúc thành công
 }
